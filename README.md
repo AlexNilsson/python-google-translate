@@ -1,21 +1,21 @@
-# multrans
+# multitrans
 Translate multiple strings to multiple languages wrapping the Google Translate service.
 
 ## Install
 ```
-pip install multrans
+pip install multitrans
 ```
 
 ## Format
 ```python
-from multrans import translate
+from multitrans import translate
 
 result = translate( strings, to_languages, from_language )
 ```
 
 ## Examples
 ```python
-from multrans import translate
+from multitrans import translate
 
 # translate one string to one language
 a = translate('en fin stol','en','sv')
